@@ -1,0 +1,17 @@
+# Interfaz gráfica
+PySide6>=6.7
+
+# Lectura de PDF (lector y extracción de portadas)
+PyMuPDF>=1.24
+
+# Base de datos
+mysql-connector-python>=8.3
+
+# ORM (mapeo opcional de las tablas; la app sigue funcionando con SQL directo)
+SQLAlchemy>=2.0,<3.0
+
+# Cómics en CBR/RAR (requiere el binario `unrar` instalado en el sistema)
+rarfile>=4.2
+
+# Redimensionado de portadas
+Pillow>=10.0
